@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094e9b14-f69c-4693-ae8d-fc279aa1fa3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Hack/第二章/Code/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Hack/第二章/Code/第二章/netcat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码/test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hack/第二章/TCP_Client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hack/第二章/TCP_Server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hack/第二章/UDP_Client.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Go_Design_Pattern/代码/Singleton/single.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战/DecisionTree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2b82285d-c2e2-41ba-a279-2770932198f0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2b82285d-c2e2-41ba-a279-2770932198f0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/35fb86ba-e794-4a7c-80de-8722c994a01c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/35fb86ba-e794-4a7c-80de-8722c994a01c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ead82887-7615-488b-be44-2e4e99d43039.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ead82887-7615-488b-be44-2e4e99d43039.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/02_Some_Simple_Datasets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/代码/02_Some_Simple_Datasets.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/01_A_First_Application_Classifying_Iris_Species.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/02_Some_Simple_Datasets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/代码/test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/第二章 监督学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/第二章 监督学习.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -51,25 +56,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.V2_3016684727579247.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/代码仓库/StudyNote/Machine_Learning/Python机器学习基础教程/代码&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\代码仓库\StudyNote\Machine_Learning\Python机器学习基础教程\代码" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,10 +102,46 @@
       <workItem from="1708399050738" duration="3811000" />
       <workItem from="1708418572473" duration="1582000" />
       <workItem from="1708478990011" duration="14949000" />
+      <workItem from="1709167955847" duration="1832000" />
+      <workItem from="1710203821545" duration="1649000" />
+      <workItem from="1710290327209" duration="4591000" />
+      <workItem from="1710376706422" duration="3989000" />
+      <workItem from="1710722245625" duration="2414000" />
+      <workItem from="1710808617111" duration="3593000" />
+      <workItem from="1710981698605" duration="47000" />
+      <workItem from="1711067928492" duration="1168000" />
+      <workItem from="1711069182303" duration="1919000" />
+      <workItem from="1711075513559" duration="302000" />
+      <workItem from="1711075916169" duration="2616000" />
+      <workItem from="1711084553178" duration="3204000" />
+      <workItem from="1711327391441" duration="4752000" />
+      <workItem from="1711413380569" duration="3117000" />
+      <workItem from="1711500093731" duration="2166000" />
+      <workItem from="1711672430653" duration="8163000" />
+      <workItem from="1712541687525" duration="7590000" />
+      <workItem from="1713141206502" duration="2802000" />
+      <workItem from="1713144034169" duration="2004000" />
+      <workItem from="1713151014546" duration="362000" />
+      <workItem from="1713227666079" duration="3364000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://E:/代码仓库/StudyNote/Machine_Learning/Python机器学习基础教程/代码/监督学习/6.决策树.ipynb</url>
+          <line>120</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1711415416878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/代码" />
+    <SUITE FILE_PATH="coverage/Python$V2_3016684727579247.coverage" NAME="V2_3016684727579247 Coverage Results" MODIFIED="1711331502118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="//fileserver.finchina.local/hct/config/test/plugins" />
   </component>
 </project>
