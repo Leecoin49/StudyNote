@@ -1,0 +1,28 @@
+### 解题思路
+
+用切片一目了然
+
+### 代码
+
+* golang
+
+```golang
+func mergeAlternately(word1 string, word2 string) string {
+    l1:=len(word1)
+    l2:=len(word2)
+    r:=[]byte{}
+    if l1>l2{
+        for i:=range word2{
+            r=append(r,word1[i],word2[i])
+        }
+        r=append(r,word1[l2:]...)
+    }else{
+        for i:=range word1{
+            r=append(r,word1[i],word2[i])
+        }
+        r=append(r,word2[l1:]...)
+    }
+    return string(r)
+}
+```
+
