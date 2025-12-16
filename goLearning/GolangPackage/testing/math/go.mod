@@ -1,3 +1,3 @@
 module github/leecoin49/math
 
-go 1.25.1
+go 1.22.5
