@@ -14,7 +14,11 @@
  * }
  */
 func checkTree(root *TreeNode) bool {
-    
+    if root.Val == root.Left.Val + root.Right.Val {
+		return true
+	} else {
+		return false
+	}
 }
 // @lc code=end
 
