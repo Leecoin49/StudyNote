@@ -192,6 +192,4 @@ func main() {
 	} else {
 		fmt.Println("创建Deployment成功")
 	}
-
-	
 }
