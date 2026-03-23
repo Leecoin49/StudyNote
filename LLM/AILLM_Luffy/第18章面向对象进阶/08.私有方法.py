@@ -52,10 +52,9 @@ class Base:
     def test(self):
         self.__foo()
 
-class son(Base):
+class Son(Base):
     def __foo(self):
-        print("foo from son")
+        print("foo from Son")
 
 s=Son()
 s.test()
-
